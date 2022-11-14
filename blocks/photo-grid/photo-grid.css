@@ -4,6 +4,7 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
   max-width: 100%;
+  padding-bottom: 92px;
 
 }
 
@@ -11,6 +12,19 @@
   .photo__grid {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .photo__grid {
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo__grid {
+    padding-bottom: 64px;
   }
 }
 
