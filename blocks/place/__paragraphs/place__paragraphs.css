@@ -1,0 +1,20 @@
+.place__paragraphs {
+  display: flex;
+  flex-direction: column;
+  max-width: 484px;
+  gap: 26px;
+}
+
+  @media screen and (max-width: 768px) {
+    .place__paragraph {
+      font-size: 16px;
+      line-height: 163%;
+      }
+  }
+
+  @media screen and (max-width: 320px) {
+  .place__paragraph {
+    font-size: 12px;
+    line-height: 12px;
+    }
+}
