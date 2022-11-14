@@ -2,7 +2,7 @@
   margin: 0 auto 80px;
   display: grid;
   max-width: 984px;
-  grid-template-columns: repeat(2, 1fr) ;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   row-gap: 48px;
   column-gap: 40px;
@@ -31,7 +31,7 @@
     margin: 0 auto 50px;
     display: grid;
     max-width: 320px;
-    grid-template-columns: repeat(1, 1fr) ;
+    grid-template-columns: repeat(1, 1fr);
     row-gap: 32px;
   }
 }
