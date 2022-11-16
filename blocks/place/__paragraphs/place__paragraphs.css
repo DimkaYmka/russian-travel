@@ -5,16 +5,8 @@
   gap: 26px;
 }
 
-@media screen and (max-width: 768px) {
-  .place__paragraph {
-    font-size: 16px;
-    line-height: 163%;
-  }
-}
-
 @media screen and (max-width: 320px) {
-  .place__paragraph {
-    font-size: 12px;
-    line-height: 12px;
+  .place__paragraphs{
+    gap: 25px;
   }
 }

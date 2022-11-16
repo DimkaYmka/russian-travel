@@ -8,21 +8,34 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .place__paragraphs {
+  .place__paragraph {
     max-width: 456px;
+    font-size: 18px;
+    line-height: 163%;
   }
 }
 
 
 @media screen and (max-width: 768px) {
-  .place__paragraphs {
-    max-width: 484px;
+  .place__paragraph {
+    font-size: 16px;
+    max-width: 352px;
     gap: 25px;
   }
 }
 
+@media screen and (max-width: 600px) {
+  .place__paragraph {
+    max-width: 100%;
+  }
+}
+
+
 @media screen and (max-width: 320px) {
   .place__paragraph {
+    margin: 0 auto;
+    max-width: 288px;
     font-size: 16px;
+    line-height: 163%;
   }
 }
