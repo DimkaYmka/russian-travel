@@ -1,5 +1,8 @@
 .footer__links-item {
   margin: 0 14px 0 0;
   padding: 0;
+}
 
+.footer__links-item:hover {
+  opacity: .8;
 }

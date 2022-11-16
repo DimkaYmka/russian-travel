@@ -2,7 +2,7 @@
   max-width: 690px;
   margin: 0;
   padding-bottom: 40px;
-  font-family: "Inter", "Arial ", sans-serif;
+  font-family: 'Inter', 'Arial', 'sans-serif';
   font-weight: 900;
   font-style: normal;
   font-size: 48px;
@@ -23,7 +23,6 @@
 @media screen and (max-width: 768px) {
   .intro__title {
     max-width: 720px;
-    margin: 0 auto;
   }
 }
 
@@ -32,8 +31,6 @@
     max-width: 288px;
     font-size: 32px;
     line-height: 109%;
-    margin: 0 auto;
-
   }
 }
 
