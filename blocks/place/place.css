@@ -4,22 +4,23 @@
   max-width: 984px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  row-gap: 48px;
-  column-gap: 40px;
+  row-gap: 49px;
+  column-gap: 15px;
 
 }
 
 @media screen and (max-width: 1024px) {
   .place {
     max-width: 928px;
-    column-gap: 32px;
-
+    column-gap: 16px;
+    row-gap: 45px;
   }
 }
 @media screen and (max-width: 768px) {
   .place {
     max-width: 720px;
-    column-gap: 28px;
+    column-gap: 19px;
+    row-gap: 42px;
     margin: 0 auto 73px;
   }
 }
@@ -35,6 +36,6 @@
   .place {
     margin: 0 auto 50px;
     max-width: 320px;
-    row-gap: 36px;
+    row-gap: 35px;
   }
 }

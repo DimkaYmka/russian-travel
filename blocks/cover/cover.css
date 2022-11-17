@@ -1,9 +1,15 @@
 .cover {
   max-width: 1184px;
-  margin: 12px auto 88px;
+  margin: 88px auto 92px;
   padding: 0;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    margin: 100px auto 96px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -15,6 +21,6 @@
 
 @media screen and (max-width: 320px) {
   .cover {
-    margin: 68px auto 64px;
+    margin: 79px auto 56px;
   }
 }
