@@ -30,7 +30,7 @@
 @media screen and (max-width: 320px) {
   .header {
     padding: 0;
-    margin: 18px 48px 36px 16px;
+    margin: 0 48px 36px 16px;
     gap: 83px;
   }
 
